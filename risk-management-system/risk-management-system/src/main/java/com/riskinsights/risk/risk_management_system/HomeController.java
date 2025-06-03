@@ -8,6 +8,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "Welcome to the Risk Management System!";
+        return "Welcome to the Risk Management Systems!";
     }
 }

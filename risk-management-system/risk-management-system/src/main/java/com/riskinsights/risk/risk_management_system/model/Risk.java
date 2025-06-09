@@ -1,6 +1,6 @@
 package com.riskinsights.risk.risk_management_system.model;
 
-import jarkarta.persistence.*;
+import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
@@ -13,7 +13,7 @@ public class Risk {
     @Enumerated(EnumType.STRING)
     private RiskType type;
 
-    Private String description;
+    private String description;
 
     private double severity;
 
